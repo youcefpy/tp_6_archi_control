@@ -709,6 +709,6 @@ class __TwigTemplate_aae08aa4b10e830c71a84a3380136677 extends Template
         {% endif %}
     </div>
 {% endblock %}
-", "@WebProfiler/Collector/http_client.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
+", "@WebProfiler/Collector/http_client.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
     }
 }

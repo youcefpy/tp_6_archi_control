@@ -227,6 +227,6 @@ Exception stack trace attached.
 {{ exception }}
 {% endif %}
 {% endblock %}
-", "@email/zurb_2/notification/body.txt.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\zurb_2\\notification\\body.txt.twig");
+", "@email/zurb_2/notification/body.txt.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\zurb_2\\notification\\body.txt.twig");
     }
 }

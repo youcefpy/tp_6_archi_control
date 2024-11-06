@@ -186,6 +186,6 @@ class __TwigTemplate_c99b488ebabc5a1a9765fe81860a56bd extends Template
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\doctrine\\doctrine-bundle\\templates\\Collector\\explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\doctrine\\doctrine-bundle\\templates\\Collector\\explain.html.twig");
     }
 }

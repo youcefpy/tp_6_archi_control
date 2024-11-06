@@ -471,6 +471,6 @@ class __TwigTemplate_b7098e333f123b166945137147f648b1 extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
     }
 }

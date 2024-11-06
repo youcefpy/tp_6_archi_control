@@ -97,6 +97,6 @@ class __TwigTemplate_ba0926cd11b8c4ec34f50636095c4b45 extends Template
     public function getSourceContext(): Source
     {
         return new Source("{% block panel '' %}
-", "@WebProfiler/Profiler/ajax_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\ajax_layout.html.twig");
+", "@WebProfiler/Profiler/ajax_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\ajax_layout.html.twig");
     }
 }

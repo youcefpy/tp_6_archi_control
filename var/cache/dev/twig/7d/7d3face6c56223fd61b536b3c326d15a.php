@@ -269,6 +269,6 @@ class __TwigTemplate_f6c2d6f4cfa79974a668317c28ad143d extends Template
         </div>
     </div>
 {% endblock %}
-", "@WebProfiler/Profiler/toolbar_redirect.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar_redirect.html.twig");
+", "@WebProfiler/Profiler/toolbar_redirect.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar_redirect.html.twig");
     }
 }

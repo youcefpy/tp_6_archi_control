@@ -522,6 +522,6 @@ col-sm-10
         </div>{#--#}
     </div>
 {%- endblock checkbox_row %}
-", "bootstrap_3_horizontal_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_horizontal_layout.html.twig");
+", "bootstrap_3_horizontal_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_horizontal_layout.html.twig");
     }
 }

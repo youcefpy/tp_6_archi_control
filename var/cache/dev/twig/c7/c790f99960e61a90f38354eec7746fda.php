@@ -2704,6 +2704,6 @@ $context["attrvalue"] === false)) {
         {%- endif -%}
     {%- endfor -%}
 {%- endblock attributes -%}
-", "form_div_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_div_layout.html.twig");
+", "form_div_layout.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_div_layout.html.twig");
     }
 }

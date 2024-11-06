@@ -1004,6 +1004,6 @@ class __TwigTemplate_c123fe8beed35b9ee7084f5f5a1efe28 extends Template
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\cinema\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "C:\\symfony_tuto\\tp_6_archi_control\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.html.twig");
     }
 }
