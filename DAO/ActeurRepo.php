@@ -4,11 +4,13 @@ include_once("../DO/Acteur.php");
 class ActeurRepo {
     public function ajoutActeur(Acteur $acteur) {
         $conn = new Connexion();
-        $stmt = $conn->getConnexion()->prepare("INSERT INTO acteur (id_acteur, nom, prenom) VALUES (:id_acteur, :nom, :prenom)");
+        $stmt = $conn->getConnexion()->prepare("INSERT INTO acteur (id_acteur, nom, prenom,role,ddn) VALUES (:id_acteur, :nom, :prenom,:role,:ddn)");
         $stmt->execute(array(
             ":id_acteur" => $acteur->getIdActeur(),
             ":nom" => $acteur->getNom(),
-            ":prenom" => $acteur->getPrenom()
+            ":prenom" => $acteur->getPrenom(),
+            ":role"=>$acteur->getRole(),
+            ":ddn"=> $acteur->getDdn(),
         ));
     }
 
@@ -24,6 +26,8 @@ class ActeurRepo {
             $acteur->setIdActeur($row['id_acteur']);
             $acteur->setNom($row['nom']);
             $acteur->setPrenom($row['prenom']);
+            $acteur->setRole($row['role']);
+            $acteur->setDdn($row['ddn']);
             array_push($tab, $acteur);
         }
         return $tab;    
@@ -40,17 +44,21 @@ class ActeurRepo {
         $acteur->setIdActeur($row['id_acteur']);
         $acteur->setNom($row['nom']);
         $acteur->setPrenom($row['prenom']);
+        $acteur->setRole($row['role']);
+        $acteur->setDdn($row['ddn']);
 
         return $acteur;
     }
 
     public function modifierActeur(Acteur $acteur) {
         $conn = new Connexion();
-        $stmt = $conn->getConnexion()->prepare("UPDATE acteur SET nom = :nom, prenom = :prenom WHERE id_acteur = :id_acteur");
+        $stmt = $conn->getConnexion()->prepare("UPDATE acteur SET nom = :nom, prenom = :prenom,role = :role, ddn=:ddn WHERE id_acteur = :id_acteur");
         $stmt->execute(array(
             ":id_acteur" => $acteur->getIdActeur(),
             ":nom" => $acteur->getNom(),
-            ":prenom" => $acteur->getPrenom()
+            ":prenom" => $acteur->getPrenom(),
+            ":role"=>$acteur->getRole(),
+            ":ddn"=> $acteur->getDdn()
         ));
     }
 
