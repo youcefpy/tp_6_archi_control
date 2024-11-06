@@ -34,17 +34,8 @@ class Acteur
     #[ORM\ManyToMany(targetEntity: Film::class, inversedBy: 'acteurs')]
     private Collection $film;
 
-    /**
-     * @var Collection<int, ActeurFilm>
-     */
-    #[ORM\ManyToMany(targetEntity: ActeurFilm::class, mappedBy: 'acteur_id')]
-    private Collection $acteurFilms;
 
-    public function __construct()
-    {
-        $this->film = new ArrayCollection();
-        $this->acteurFilms = new ArrayCollection();
-    }
+
 
     public function getId(): ?int
     {
@@ -123,30 +114,5 @@ class Acteur
         return $this;
     }
 
-    /**
-     * @return Collection<int, ActeurFilm>
-     */
-    public function getActeurFilms(): Collection
-    {
-        return $this->acteurFilms;
-    }
 
-    public function addActeurFilm(ActeurFilm $acteurFilm): static
-    {
-        if (!$this->acteurFilms->contains($acteurFilm)) {
-            $this->acteurFilms->add($acteurFilm);
-            $acteurFilm->addActeurId($this);
-        }
-
-        return $this;
-    }
-
-    public function removeActeurFilm(ActeurFilm $acteurFilm): static
-    {
-        if ($this->acteurFilms->removeElement($acteurFilm)) {
-            $acteurFilm->removeActeurId($this);
-        }
-
-        return $this;
-    }
 }
