@@ -1,7 +1,7 @@
 <?php
 
 include_once("./connexions.php");
-include_once("./DO/Realisateur.php");
+include_once("../DO/Realisateur.php");
 class RealisateurRepo {
 
     public function ajoutRealisateur(Realisateur $realisateur){
